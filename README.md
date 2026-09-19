@@ -31,7 +31,7 @@ boat-risk-app/
   │ └── boat_scored_orders.csv 
   |  ├── risk_model.pkl               # Trained scikit-learn pipeline 
   |  ── categorical_options.pkl       # Dropdown options for the scoring form 
-└── README.md
+└── README.md 
 
 
 ## 🧠 Model summary
