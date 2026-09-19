@@ -23,7 +23,15 @@ URL: https://boat-risk-scoring-app-akraj42ezdgqzlt2whfgh9.streamlit.app/
 - Streamlit
 
 ## 📁 Repository structure
-boat-risk-app/ ├── app.py # Streamlit app (login + dashboard + scoring) ├── train_model.ipynb # Model training notebook ├── requirements.txt # Python dependencies ├── data/ │ └── boat_scored_orders.csv ├── risk_model.pkl # Trained scikit-learn pipeline ├── categorical_options.pkl # Dropdown options for the scoring form └── README.md
+boat-risk-app/ 
+├── app.py                            # Streamlit app (login + dashboard + scoring) 
+├── train_model.ipynb                 # Model training notebook 
+├── requirements.txt                  # Python dependencies 
+├── data/ 
+  │ └── boat_scored_orders.csv 
+  |  ├── risk_model.pkl               # Trained scikit-learn pipeline 
+  |  ── categorical_options.pkl       # Dropdown options for the scoring form 
+└── README.md
 
 
 ## 🧠 Model summary
