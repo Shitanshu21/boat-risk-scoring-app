@@ -4,7 +4,7 @@ Interactive Streamlit dashboard performing exploratory analysis and live return/
 
 ## 🔗 Live app
 
-URL: https://your-app-name.streamlit.app/
+URL: https://boat-risk-scoring-app-akraj42ezdgqzlt2whfgh9.streamlit.app/
 
 ### Credentials
 
