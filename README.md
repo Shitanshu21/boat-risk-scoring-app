@@ -4,7 +4,7 @@ Interactive Streamlit dashboard performing exploratory analysis and live return/
 
 ## 🔗 Live app
 
-URL: https://your-app-name.streamlit.app/
+URL: https://boat-risk-scoring-app-akraj42ezdgqzlt2whfgh9.streamlit.app/
 
 ### Credentials
 
@@ -23,6 +23,7 @@ URL: https://your-app-name.streamlit.app/
 - Streamlit
 
 ## 📁 Repository structure
+<<<<<<< HEAD
 
 ```
 boat-risk-app/
@@ -36,6 +37,17 @@ boat-risk-app/
 │   └── boat_scored_orders.csv.gz
 └── README.md
 ```
+=======
+boat-risk-app/ 
+├── app.py                            # Streamlit app (login + dashboard + scoring) 
+├── train_model.ipynb                 # Model training notebook 
+├── requirements.txt                  # Python dependencies 
+├── data/ 
+  │ └── boat_scored_orders.csv 
+  |  ├── risk_model.pkl               # Trained scikit-learn pipeline 
+  |  ── categorical_options.pkl       # Dropdown options for the scoring form 
+└── README.md 
+>>>>>>> 8b3a1ca6443a23e75fb076263f498c051a8975fc
 
 
 ## 🧠 Model summary
